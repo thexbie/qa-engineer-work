@@ -8,12 +8,10 @@
 
             Contexto:
             Dado que eu acesse a página de um produto no EBAC-SHOP
-
-            Cenário: Obrigatoriedade dos Detalhes do Produto
+            
+            Esquema do Cenário: Obrigatoriedade dos Detalhes do Produto
             Quando eu clicar em comprar sem configurar os <detalhes> do produto
             Então deve exibir uma <mensagem> de alerta
-
-            Esquema do Cenário:
 
             Exemplos:
             | detalhes   | mensagem                                              |
